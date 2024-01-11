@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+button, select{
+    color: white;
+}
+header{
+    /* width: 100%; */
+    margin: 0px 118px;
+    padding: 24px 32px;
+}
+.container{
+    background-image: url("./assets/bg-img.jpg");
+    min-height: 665px;
+
+}
+.headerStyle{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+    height: 35px;
+}
+.langBtn{
+    width: 126px;
+    height: 32px;
+    padding: 6px 28px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: transparent;
+}
+.SignInBtn{
+    margin-left: 24px;
+    width: 76px;
+    height: 32px;
+    background-color: red;
+    border: 0px solid transparent;
+    border-radius: 4px;
+}
+.getStartedDiv{
+    margin: 119px 28px;
+text-align: center;
+}
+.getStartedTitle1{
+    font-size: 2.6rem;
+    font-weight: 900;
+
+}
+.getStartedTitle2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1rem 0 0;
+text-align: center;
+}
+.getStartedTitle3{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 2rem;
+}
+.textInputGetStarted{
+    display: flex;
+    position: relative;
+    margin-top: 8px;
+    justify-content: center;
+}
+.textInputGetStarted .email{
+    color: white;
+}
+.textInputGetStarted > div > input {
+    /* color: inherit; */
+    /* filter: opacity(0%); */
+    background: transparent;
+}
+.textInputDiv{
+    
+    margin-right: 10px;
+}
+.textInputGetStarted > .textInputDiv {
+    border : 2px solid white;
+    border-radius : 5px;
+    min-width: 28.5rem;
+}
+.textInputGetStarted > .textInputDiv > .label{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top : 1rem;
+    left : 19rem;
+}
+input[type=email] {
+    width: 100%;
+    /* padding: 15px;
+    margin: 5px 0 22px 0; */
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    min-height: 56px;
+    
+  }
+.getStartedBtn{
+    background: rgb(193, 17, 25);
+    border: none;
+    border-color: black;
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 0.75rem 1.5rem;
+}
+.gradientLayer{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background: rgb(0 0 0 / 40%);
+    min-height: 665px;
+}
+.breaker{
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    /* bottom: -0.5rem; */
+    background-color: rgb(35,35,35);
+}
+/* section2 */
+.section2{
+    margin: 59px 148px;
+    display: flex;
+}
+.section2 > .textArea{
+    width: 50%;
+    padding-top: 100px;
+}
+.section2 > .video{
+    width: 50%;
+}
+.section2 > .textArea > .title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.section2 > .textArea > .para {
+    padding-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.section2 > .video{
+    position: relative;   
+}
+.section2 > .video > img{
+    width: 100%;
+}
+video{
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 55%;
+    position: absolute;
+    top: 20%;
+    left: 13%;
+}
+.section3{
+    padding: 72px 154px;
+    display: flex;
+}
+.section3 > .textarea, .section3 > .image{
+width: 50%;
+}
+.section3 > .textarea > .title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.section3 > .textarea > .para {
+    padding-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.section3 > .textarea{
+    margin-top: 32px;
+}
+.section3 > .image{
+    position: relative;
+}
+.section3 .card-animation{
+    padding: 0.5rem 0.75rem;
+    overflow: hidden;
+    position: absolute;
+    left: 22%;
+    bottom: 8%;
+
+    margin: 0 auto;
+    background: rgb(0,0,0);
+
+    display: flex;
+
+    align-items: center;
+    width: 50%;
+    min-width: 15rem;
+    border: 2px solid rgba(128,128,128,0.7);
+    box-shadow: 0 0 2em 0 rgb(0,0,0);
+    border-radius: 0.75rem;
+    /* z-index: 1; */
+}
+.card-animation > .image{
+    margin: 0 1rem 0 0;
+}
+.card-animation img{
+    height: 5rem;
+
+}
+.card-animation .text{
+    text-align: left;
+
+    margin: 0.3rem 0;
+}
+.card-animation .text .p2{
+    font-weight: 400;
+    color: #0071eb;
+    font-size: 0.875rem;
+}
+.card-animation .text .p1{
+    font-size: 1rem;
+    color: rgb(255,255,255);
+    font-weight: 500;
+}
+.card-animation .gif{
+    width: 3rem;
+    height: 3rem;
+    outline: 2px solid rgb(0,0,0);
+    outline-offset: -2px;
+    display: block;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    background-size: 100%;
+}
